@@ -1,0 +1,31 @@
+@media (max-width: 600px){
+    body{background-color: black;}
+}
+
+div{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content:center ;
+}
+img{
+    
+    height: 90px;
+    width: 728px;
+    align-self: center;
+}
+body{
+    background-color: red;
+}
+
+.window{
+ height: 100px;
+ width: 100%;
+ justify-items: center;
+ display: flex;
+ background-color: rgb(255, 0, 0);
+ margin-top: 30px;
+ object-fit: cover;
+ font-size: 15px;
+}
